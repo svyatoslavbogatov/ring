@@ -1,0 +1,186 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "\u043a\u041e\u041b\u042c\u0426\u041e",
+            "rotation" : [
+                0.9770532846450806,
+                0.003048003651201725,
+                -0.2129579484462738,
+                -0.002547543728724122
+            ],
+            "scale" : [
+                -1061.5936279296875,
+                -1061.5938720703125,
+                -1061.59375
+            ],
+            "translation" : [
+                28.021482467651367,
+                0.517300009727478,
+                0.009148364886641502
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "ring",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "gltf 4isyi_DefaultMaterial_Normal.1001",
+            "uri" : "gltf%204isyi_DefaultMaterial_Normal_1001.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "gltf 4isyi_DefaultMaterial_Roughness.1001-gltf 4isyi_DefaultMaterial_Metallic.1001",
+            "uri" : "gltf%204isyi_DefaultMaterial_Roughness_1001-gltf%204isyi_DefaultMaterial_Metallic_1001.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "gltf 4isyi_DefaultMaterial_BaseColor.1001",
+            "uri" : "gltf%204isyi_DefaultMaterial_BaseColor_1001.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 22559,
+            "max" : [
+                0.09133022278547287,
+                0.019597036764025688,
+                0.09132946282625198
+            ],
+            "min" : [
+                -0.09132881462574005,
+                -0.019600948318839073,
+                -0.09132958948612213
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 22559,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 22559,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 22559,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 122880,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 270708,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 270708,
+            "byteOffset" : 270708
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360944,
+            "byteOffset" : 541416
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180472,
+            "byteOffset" : 902360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 245760,
+            "byteOffset" : 1082832
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1328592,
+            "uri" : "ring.bin"
+        }
+    ]
+}
