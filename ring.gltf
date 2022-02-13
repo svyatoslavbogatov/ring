@@ -56,7 +56,8 @@
                 },
                 "metallicRoughnessTexture" : {
                     "index" : 1
-                }
+                },
+                "roughnessFactor" : 0.010364145040512085
             }
         }
     ],
