@@ -6,6 +6,9 @@
     "scene" : 0,
     "scenes" : [
         {
+            "extras" : {
+                "print_3d" : {}
+            },
             "name" : "Scene",
             "nodes" : [
                 0
@@ -14,6 +17,9 @@
     ],
     "nodes" : [
         {
+            "extras" : {
+                "sparkar_optimization" : {}
+            },
             "mesh" : 0,
             "name" : "\u043a\u041e\u041b\u042c\u0426\u041e",
             "rotation" : [
